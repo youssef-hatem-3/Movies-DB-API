@@ -1,0 +1,74 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>JS EXAM</title>
+</head>
+    <body>
+        <div id="options" class="d-flex align-items-center justify-content-center ">
+            <div id="MoviesBox" class="h-100 w-100  py-4 bg-dark">
+                <div class="ulContainer ">
+                    <ul id="unOrderList" class="navbar-nav ps-4">
+                        <li class="nav-item">
+                            <a id="nowPlaying" class="nav-link ">Now playing</a>
+                        </li>
+                        <li class="nav-item">
+                            <a id="popular" class="nav-link ">Popular</a>
+                        </li>
+                        <li class="nav-item">
+                            <a id="topRated" class="nav-link ">Top Rated</a>
+                        </li>
+                        <li class="nav-item">
+                            <a id="upcoming" class="nav-link ">Upcoming</a>
+                        </li>
+                        <li class="nav-item">
+                            <a id="trending" class="nav-link ">Trending</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="ps-4">
+                    <i class="fa-brands fa-facebook-f text-white px-1"></i>
+                    <i class="fa-brands fa-twitter text-white px-1"></i>
+                    <i class="fa-solid fa-globe m-1 text-white px-1"></i>
+                    <br>
+                    <p class="iconsp text-black mt-2  ">Copyright Â©2019 <br> All RightsReserved.</p>
+                </div>
+            </div>
+            <div class=" menuLogoColumn bg-white h-100 d-flex align-items-">
+                <img src="images/logo.png" class="w-50" alt="">
+                <i id="xicon" class="fa-solid fa-bars fs-3 text-black fa-fw mx-2"></i>
+                <div>
+                    <i class="fa-solid fa-globe m-1"></i>
+                    <br>
+                    <i class="fa-solid fa-share-nodes m-1"></i>
+                </div>
+                
+            </div>
+            
+        </div>
+        <div class="container">
+            <div class="row w-75 m-auto">
+                <div class="col-md-6">
+                    <form class="d-flex bg-black my-5 findForm " role="search">
+                        <input id="searchSCBar"class="form-control me-2 w-100" type="search" placeholder="Search in same category" aria-label="Search">
+                    </form>
+                </div>
+                <div class="col-md-6">
+                    <form class="d-flex bg-black my-5  findForm " role="search">
+                        <input id="searchAMBar"class="form-control me-2 w-100" type="search" placeholder="Search in all movies" aria-label="Search">
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="container mt-3">
+            <div class="row w-75 m-auto" id="rowItems">
+
+            </div>
+        </div>
+            
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/main.js"></script>
+    </body>
+</html>

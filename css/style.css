@@ -1,0 +1,90 @@
+body
+{
+    background-color: black;
+}
+.post
+{
+    color: white;
+    position: relative;
+    overflow: hidden;
+    margin: 10px;
+}
+.post img
+{
+    width: 100%;
+}
+.postDescription
+{
+    color: black;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.726);
+    position: absolute;
+    top: 100%;
+    left: 0%;
+    transition-duration: 1s ;
+}
+.post:hover .postDescription
+{
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+#colorsbox
+{
+    padding: 10px;
+    height: 100vh;
+}
+#options
+{
+    position: fixed;
+    z-index: 999999999;
+    top: 0px;
+    bottom: 0px;
+}
+#options i 
+{
+    cursor: pointer;
+}
+h1
+{
+    font-size: 3rem;
+    font-weight: 800;
+}
+a
+{
+    font-size: 0.9rem;
+}
+.nav-link
+{
+    cursor: pointer;
+}
+.nav-item a
+{
+    color: white;
+}
+.nav-item:hover a 
+{
+    color: rgb(192, 41, 41);
+} 
+.menuLogoColumn
+{
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0px;
+}
+#moviesBox
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.form-control
+{
+    border-top: 0 ; border-right:0 ; border-left: 0; 
+    margin: 10px 0px;
+    
+}
